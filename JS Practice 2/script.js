@@ -93,3 +93,34 @@ for (var i = 0; i<x.length; i++){
     }
 }
 console.log(mostfrequent);
+
+var j = [1,2,1,2,3];
+var sum2 = 0;
+for(i = 1 ; i<j.length ; i++){
+    sum2 = sum2 + j[i];
+}
+console.log(sum2);
+
+var q = [3, 7, 2, 9, 1]
+q.sort((a,b)=>b-a);
+console.log(q[0])
+
+var h = [1, 2, 3, 4, 5];
+var rever = [];
+for(var i = h.length-1;i>=0; i--){
+    rever.push(h[i]);
+}
+console.log(rever);
+
+var j = [1, 2, 3, 4, 5, 6, 7, 8 , 0]
+var count = 0;
+for(var i = 1; i<j.length ; i++){
+    if(j[i]%2==0){
+        count++
+    }
+}
+console.log(count);
+
+var o = [1, 2, 4, 5, 6]
+var count = [1,2,3,4,5,6];
+
