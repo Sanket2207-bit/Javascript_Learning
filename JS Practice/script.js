@@ -52,8 +52,8 @@ console.log(obj.age);
 // constant se app value change nhi kr sakte but value ko only update hi kr sakte ho 
 
 const arr = [1 ,2 ,4 ,7 , 8];
-arr.pop(2);
-console.log(arr);
+console.log(arr.pop());
+// pop is used to remove the very last element of an array
 
 const ohj = {
     name: 'bhavishya',

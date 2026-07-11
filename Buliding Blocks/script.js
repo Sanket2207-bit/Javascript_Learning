@@ -18,7 +18,7 @@ console.log(b)
 // console.log(c);
 // var c = 43
 // console.log(c);
-// //this above concept is known as hoistingprince
+//this above concept is known as hoisting
 
 // var d = Number(prompt('enter no'))
 // var e = Number(prompt('enter another no'))
