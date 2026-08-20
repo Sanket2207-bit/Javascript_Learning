@@ -91,21 +91,6 @@ var bnbn = greet("Yo")
 bnbn("Everybody!");
 
 // Implement a function that takes a callback and only executes it once
-function ekbar(fn){
-    var called = false;
-    return function(){
-        if(!called){
-            called = true;
-            fn();
-        }
-    };
-}
-var ekor = ekbar(function(){
-    console.log("Orewa Monkey D. Luffy");
-});
-// call multiple times; only the first call will run the callback
-ekor();
-ekor();
 
 // Implement a function that throttles another function (HOF + Closures)
 function throat(fn , delay){

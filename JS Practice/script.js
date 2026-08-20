@@ -84,7 +84,7 @@ console.log(num5);
 console.log(num6);
 
 /* We have 3 different ways to convert a string into a number
-!The first one is 'Number':- what it does that it try to forecfully covery everything inside a string into a number so if it find anything that is a non number it will NaN as an out put
+!The first one is 'Number':- what it does that it try to forecfully covery everything inside a string into a number so if it find anything that is a non number it will NaN as an output
 Todo: Now the second method is to use '+' it is same as Number but just the shorter variant  
 ? Third one is "ParseInt" it read the string from left to right and if the first digit in string is number then it will convert that to number and it doesnt matter if the rest of the string is non number if the first digit is no it will extract that no and if the first digit is non number is will give NaN */
 
@@ -103,10 +103,10 @@ for (let i = 10; i>0; i--){
 }
 
 // ──→  Use a while loop to print multiples of 3 from 3 to 30.
-let num = 3;
-while (num<=30){
-    console.log(num);
-    num += 3;
+let num92 = 3;
+while (num92<=30){
+    console.log(num92);
+    num92 += 3;
 }
 
 // ──→ Write a program to calculate the sum of numbers from 1 to 100 using a loop.
@@ -132,22 +132,15 @@ for(const char of language){
 }
 
 // ──→ Remove duplicate values from an array
-var arr = [1,2,2,3,3,4,3,2,5,7,4,5,8,5];
-var unarr = [... new Set(arr)];
+var arr28 = [1,2,2,3,3,4,3,2,5,7,4,5,8,5];
+var unarr = [... new Set(arr28)];
 console.log(unarr);
-// ... these 3dots are called spread operator it is used to spread the iterable like string array set etc.
+// ... these 3dots are called spread operator it is used to spread the iterable like string array set etc. it change array from this [1,2,3,4] to this (1,2,3,4)
 // Set is used to only store unique values
 
 // ──→ Find the largest number in an array
 var agh = [1 ,2 , 38 , 98 , 200 , 2 , 4 , 45];
-var ahj = [... new Set(agh)];
-var largest = ahj[0];
-for(var i = 1 ; i < ahj.length ; i++){
-    if(ahj[i]>largest){
-        largest = ahj[i];
-    }
-}
-console.log(largest);
+console.log(Math.max(agh))
 
 // ──→ Sort an array in descending order
 var aaa = [1,222,3321,32,13,9,31,2,0];
@@ -204,10 +197,10 @@ var q = [3, 7, 2, 9, 1]
 q.sort((a,b)=>b-a);
 console.log(q[0])
 
-var h = [1, 2, 3, 4, 5];
+var h1 = [1, 2, 3, 4, 5];
 var rever = [];
-for(var i = h.length-1;i>=0; i--){
-    rever.push(h[i]);
+for(var i = h1.length-1;i>=0; i--){
+    rever.push(h1[i]);
 }
 console.log(rever);
 
@@ -220,7 +213,7 @@ for(var i = 1; i<j.length ; i++){
 }
 console.log(count);
 
-var o = [1, 2, 4, 5, 6]
+var o1 = [1, 2, 4, 5, 6]
 var count = [1,2,3,4,5,6];
 
 
